@@ -19,3 +19,6 @@ python -m pip install -e detectron2
 This project uses a slightly altered version of the detectron2 package. The function fast_rcnn_inference_single_image in "detectron2/detectron2/modeling/roi_heads/fast_rcnn.py" is altered to return the confidence score for all decision classes instead of only the most probably class, for the purpose of calculating Entropy.
 
 All rights for the detectron2 package remain with the original owner of the package, found here: https://github.com/facebookresearch/detectron2
+
+# Dataset
+The dataset used is the MVTEC D2S Dataset, which can be found here: https://www.mvtec.com/company/research/datasets/mvtec-d2s. All rights for the MVTEC D2S Dataset remain with the original owner. 
