@@ -1,6 +1,12 @@
 # MaskRCNN Active Learning
- This projects combines the Mask R-CNN method from the detectron2 package with various active learning methods on a retail dataset
+ This projects combines the Mask R-CNN method from the detectron2 package with various active learning methods on a retail dataset.
 
+ The main folder is "iterative active learning process", which  contains the files that perform the iterative process as detailed in algorithm 1 for the Least Confident Entropy and CEAL active learning method on two subsets of the dataset.
+ 
+![image](https://github.com/griffioens/Retail-Industry-MaskRCNN-and-Active-Learning/assets/91024075/240aacea-fe4f-4904-a622-17dd284732a0)
+
+
+The other folders contain support results. The folder BenchMarkResults are the results of the Mask R CNN model trained on the complete dataset. The Hyperparameter optimization contains all the tests conducted to optimize the hyperparameters for the experiment. 
 
 # Installation instructions
 1. Install pytorch using the helper tool here: https://pytorch.org/get-started
